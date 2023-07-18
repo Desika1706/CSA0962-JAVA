@@ -1,0 +1,16 @@
+import java.util.*;
+class avg{
+public static void main(String[]args)
+{
+Scanner s=new Scanner(System.in);
+int s=s.nextInt();
+int a=s.nextInt();
+int b=s.nextInt();
+int c=s.nextInt();
+int d=s.nextInt();
+int sum=s+a+b+c+d;
+int avg=sum/5;
+System.out.println("sum: "+sum);
+System.out.println("average: "+avg);
+}
+}
