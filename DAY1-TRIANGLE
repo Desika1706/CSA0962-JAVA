@@ -1,0 +1,15 @@
+import java.util.*;
+class triangle
+{
+public static void main(String[]args)
+{
+Scanner s=new Scanner(System.in);
+int s=s.nextInt();
+int a=s.nextInt();
+int b=s.nextInt();
+int c=s.nextInt();
+double area=s*(s-a)*(s-b)*(s-c);
+System.out.println("area of the triangle:"+area);
+System.out.println("area of the triangle:"+Math.sqrt(area));
+}
+}
