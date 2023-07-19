@@ -1,0 +1,26 @@
+import java.util.*;
+class biggest
+{
+public static void main(String args[])
+{
+Scanner s=new Scanner(System.in);
+System.out.println("enter value");
+int a=s.nextInt();
+System.out.println("enter value");
+int b=s.nextInt();
+System.out.println("enter value");
+int c=s.nextInt();
+if(a>b && a>c)
+{
+System.out.println(a +" A value is highest");
+}
+else if(b>a && b>c)
+{
+System.out.println(b +" B value is highest");
+}
+else
+{
+System.out.println(c +" C value is highest");
+}
+}
+}
