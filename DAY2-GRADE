@@ -1,0 +1,49 @@
+import java.util.*;
+class grade
+{
+public static void main(String args[])
+{
+Scanner s=new Scanner(System.in);
+System.out.println("Enter name=");
+String name=s.nextLine();
+System.out.println("Enter Reg num=");
+int num=s.nextInt();
+System.out.println("Enter mark 1=");
+int a=s.nextInt();
+System.out.println("Enter mark 2=");
+int b=s.nextInt();
+System.out.println("Enter mark 3=");
+int c=s.nextInt();
+System.out.println("Enter mark 4=");
+int d=s.nextInt();
+System.out.println("Enter mark 5=");
+int e=s.nextInt();
+if(a<50||b<50||c<50||d<50||e<50)
+{
+System.out.println("NOT ELIGIBLE");
+}
+else
+{
+int n=a+b+c+d+e;
+System.out.println("TOTAL="+n);
+float z=n/5;
+System.out.println("AVERAGE="+z);
+if(z>=91 && z<=100)
+{
+System.out.println("S GRADE");
+}
+else if(z>=81 && z<=90)
+{
+System.out.println("A GRADE");
+}
+else if(z>=51 && z<=80)
+{
+System.out.println("B GRADE");
+}
+else
+{
+System.out.println("FAIL");
+}
+}
+}
+}
